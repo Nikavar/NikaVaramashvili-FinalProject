@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MovieWebApi.Data\MovieWebApi.Data.csproj" />
+    <ProjectReference Include="..\PersistenceDb.MVC\PersistenceDb.MVC.csproj" />
+  </ItemGroup>
+
+</Project>
