@@ -1,0 +1,126 @@
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.deps.json
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.AssemblyReference.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfoInputs.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfo.cs
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.CoreCompileInputs.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web - test\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.deps.json
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web - test\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web - test\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web - test\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.AssemblyReference.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web - test\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfoInputs.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web - test\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfo.cs
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web - test\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.CoreCompileInputs.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web - test\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web - test\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web - v3.0\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.deps.json
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web - v3.0\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web - v3.0\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web - v3.0\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfoInputs.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web - v3.0\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfo.cs
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web - v3.0\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.CoreCompileInputs.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web - v3.0\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement.Web - v3.0\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v5.0 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.deps.json
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v5.0 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v5.0 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v5.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.AssemblyReference.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v5.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfoInputs.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v5.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfo.cs
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v5.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.CoreCompileInputs.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v5.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v5.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v6.0 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.deps.json
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v6.0 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v6.0 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v6.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.AssemblyReference.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v6.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfoInputs.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v6.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfo.cs
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v6.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.CoreCompileInputs.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v6.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v6.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.deps.json
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.AssemblyReference.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfoInputs.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfo.cs
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.CoreCompileInputs.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+C:\Users\maosh\Downloads\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.deps.json
+C:\Users\maosh\Downloads\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+C:\Users\maosh\Downloads\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+C:\Users\maosh\Downloads\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.AssemblyReference.cache
+C:\Users\maosh\Downloads\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maosh\Downloads\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfoInputs.cache
+C:\Users\maosh\Downloads\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfo.cs
+C:\Users\maosh\Downloads\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\maosh\Downloads\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+C:\Users\maosh\Downloads\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+C:\Users\Nick\Desktop\movies\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.deps.json
+C:\Users\Nick\Desktop\movies\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+C:\Users\Nick\Desktop\movies\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+C:\Users\Nick\Desktop\movies\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.AssemblyReference.cache
+C:\Users\Nick\Desktop\movies\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nick\Desktop\movies\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfoInputs.cache
+C:\Users\Nick\Desktop\movies\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfo.cs
+C:\Users\Nick\Desktop\movies\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Nick\Desktop\movies\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+C:\Users\Nick\Desktop\movies\MoviesManagement - v7.0 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.2 - MVC\MoviesManagement - v7.2 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.2 - MVC\MoviesManagement - v7.2 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.2 - MVC\MoviesManagement - v7.2 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.deps.json
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.2 - MVC\MoviesManagement - v7.2 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.2 - MVC\MoviesManagement - v7.2 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.2 - MVC\MoviesManagement - v7.2 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.AssemblyReference.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.2 - MVC\MoviesManagement - v7.2 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfoInputs.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.2 - MVC\MoviesManagement - v7.2 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfo.cs
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.2 - MVC\MoviesManagement - v7.2 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Nick\Desktop\Last Project\MoviesManagement - v7.3 - MVC\MoviesManagement - v7.3 - MVC\MoviesManagement - v7.2 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.deps.json
+C:\Users\Nick\Desktop\Last Project\MoviesManagement - v7.3 - MVC\MoviesManagement - v7.3 - MVC\MoviesManagement - v7.2 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+C:\Users\Nick\Desktop\Last Project\MoviesManagement - v7.3 - MVC\MoviesManagement - v7.3 - MVC\MoviesManagement - v7.2 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+C:\Users\Nick\Desktop\Last Project\MoviesManagement - v7.3 - MVC\MoviesManagement - v7.3 - MVC\MoviesManagement - v7.2 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nick\Desktop\Last Project\MoviesManagement - v7.3 - MVC\MoviesManagement - v7.3 - MVC\MoviesManagement - v7.2 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfoInputs.cache
+C:\Users\Nick\Desktop\Last Project\MoviesManagement - v7.3 - MVC\MoviesManagement - v7.3 - MVC\MoviesManagement - v7.2 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfo.cs
+C:\Users\Nick\Desktop\Last Project\MoviesManagement - v7.3 - MVC\MoviesManagement - v7.3 - MVC\MoviesManagement - v7.2 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Nick\Desktop\Last Project\MoviesManagement - v7.3 - MVC\MoviesManagement - v7.3 - MVC\MoviesManagement - v7.2 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+C:\Users\Nick\Desktop\Last Project\MoviesManagement - v7.3 - MVC\MoviesManagement - v7.3 - MVC\MoviesManagement - v7.2 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+C:\Users\Nick\Desktop\Last Project\MoviesManagement - v7.3 - MVC\MoviesManagement - v7.3 - MVC\MoviesManagement - v7.2 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.AssemblyReference.cache
+C:\Users\Nick\Desktop\Last Project\MoviesManagement - v7.3 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.deps.json
+C:\Users\Nick\Desktop\Last Project\MoviesManagement - v7.3 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+C:\Users\Nick\Desktop\Last Project\MoviesManagement - v7.3 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+C:\Users\Nick\Desktop\Last Project\MoviesManagement - v7.3 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.AssemblyReference.cache
+C:\Users\Nick\Desktop\Last Project\MoviesManagement - v7.3 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nick\Desktop\Last Project\MoviesManagement - v7.3 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfoInputs.cache
+C:\Users\Nick\Desktop\Last Project\MoviesManagement - v7.3 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfo.cs
+C:\Users\Nick\Desktop\Last Project\MoviesManagement - v7.3 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Nick\Desktop\Last Project\MoviesManagement - v7.3 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+C:\Users\Nick\Desktop\Last Project\MoviesManagement - v7.3 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.4 - MVC\MoviesManagement - v7.4 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.deps.json
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.4 - MVC\MoviesManagement - v7.4 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.4 - MVC\MoviesManagement - v7.4 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.4 - MVC\MoviesManagement - v7.4 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfoInputs.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.4 - MVC\MoviesManagement - v7.4 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfo.cs
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.4 - MVC\MoviesManagement - v7.4 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.CoreCompileInputs.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.4 - MVC\MoviesManagement - v7.4 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.4 - MVC\MoviesManagement - v7.4 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.5 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfoInputs.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.5 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfo.cs
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.5 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.CoreCompileInputs.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.5 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.5 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.5 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.deps.json
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.5 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.5 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.7 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.deps.json
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.7 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.7 - MVC\MovieManagement.Domain\bin\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.7 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfoInputs.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.7 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.AssemblyInfo.cs
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.7 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.csproj.CoreCompileInputs.cache
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.7 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.dll
+D:\TBC Acad 2.0\Final Project\MoviesManagement\MoviesManagement - v7.7 - MVC\MovieManagement.Domain\obj\Debug\netcoreapp3.1\MovieWebApi.Domain.pdb
