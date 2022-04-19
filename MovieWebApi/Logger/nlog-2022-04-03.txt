@@ -1,0 +1,136 @@
+2022-04-03 11:38:27.9901|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (1,466ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = Double), @p2='?' (DbType = Boolean), @p3='?' (Size = 8000) (DbType = AnsiString), @p4='?' (DbType = Double), @p5='?' (DbType = Int32), @p6='?' (DbType = DateTime), @p7='?' (Size = 300), @p8='?' (Size = 50), @p9='?' (Size = 100), @p10='?' (DbType = Double), @p11='?' (DbType = Boolean), @p12='?' (Size = 8000) (DbType = AnsiString), @p13='?' (DbType = Double), @p14='?' (DbType = Int32), @p15='?' (DbType = DateTime), @p16='?' (Size = 4000), @p17='?' (Size = 50), @p18='?' (Size = 100), @p19='?' (DbType = Double), @p20='?' (DbType = Boolean), @p21='?' (Size = 50) (DbType = AnsiString), @p22='?' (DbType = Double), @p23='?' (DbType = Int32), @p24='?' (DbType = DateTime), @p25='?' (Size = 4000), @p26='?' (Size = 50), @p27='?' (Size = 100), @p28='?' (DbType = Double), @p29='?' (DbType = Boolean), @p30='?' (Size = 50) (DbType = AnsiString), @p31='?' (DbType = Double), @p32='?' (DbType = Int32), @p33='?' (DbType = DateTime), @p34='?' (Size = 300), @p35='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [movie] USING (
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, 0),
+(@p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, 1),
+(@p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, 2),
+(@p27, @p28, @p29, @p30, @p31, @p32, @p33, @p34, @p35, 3)) AS i ([Description], [Duration], [IsActive], [PosterUrl], [Price], [ProducedYear], [StartTime], [Subject], [Title], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Description], [Duration], [IsActive], [PosterUrl], [Price], [ProducedYear], [StartTime], [Subject], [Title])
+VALUES (i.[Description], i.[Duration], i.[IsActive], i.[PosterUrl], i.[Price], i.[ProducedYear], i.[StartTime], i.[Subject], i.[Title])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [movie] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+2022-04-03 11:38:28.7341|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'MovieWebApi.PersistenceDB.Context.MovieDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:d13087b1-0eae-4f7a-9325-d2738f814a41
+Error Number:8152,State:14,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2022-04-03 20:06:45.0220|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (3,197ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = Double), @p2='?' (DbType = Boolean), @p3='?' (Size = 8000) (DbType = AnsiString), @p4='?' (DbType = Double), @p5='?' (DbType = Int32), @p6='?' (DbType = DateTime), @p7='?' (Size = 300), @p8='?' (Size = 50), @p9='?' (Size = 100), @p10='?' (DbType = Double), @p11='?' (DbType = Boolean), @p12='?' (Size = 8000) (DbType = AnsiString), @p13='?' (DbType = Double), @p14='?' (DbType = Int32), @p15='?' (DbType = DateTime), @p16='?' (Size = 4000), @p17='?' (Size = 50), @p18='?' (Size = 100), @p19='?' (DbType = Double), @p20='?' (DbType = Boolean), @p21='?' (Size = 50) (DbType = AnsiString), @p22='?' (DbType = Double), @p23='?' (DbType = Int32), @p24='?' (DbType = DateTime), @p25='?' (Size = 4000), @p26='?' (Size = 50), @p27='?' (Size = 100), @p28='?' (DbType = Double), @p29='?' (DbType = Boolean), @p30='?' (Size = 50) (DbType = AnsiString), @p31='?' (DbType = Double), @p32='?' (DbType = Int32), @p33='?' (DbType = DateTime), @p34='?' (Size = 300), @p35='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [movie] USING (
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, 0),
+(@p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, 1),
+(@p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, 2),
+(@p27, @p28, @p29, @p30, @p31, @p32, @p33, @p34, @p35, 3)) AS i ([Description], [Duration], [IsActive], [PosterUrl], [Price], [ProducedYear], [StartTime], [Subject], [Title], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Description], [Duration], [IsActive], [PosterUrl], [Price], [ProducedYear], [StartTime], [Subject], [Title])
+VALUES (i.[Description], i.[Duration], i.[IsActive], i.[PosterUrl], i.[Price], i.[ProducedYear], i.[StartTime], i.[Subject], i.[Title])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [movie] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+2022-04-03 20:06:45.5330|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'MovieWebApi.PersistenceDB.Context.MovieDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:02da238b-6031-4d26-80c3-c34aa914b35e
+Error Number:8152,State:14,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2022-04-03 21:11:12.3262|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (582ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (DbType = Double), @p2='?' (DbType = Boolean), @p3='?' (Size = 8000) (DbType = AnsiString), @p4='?' (DbType = Double), @p5='?' (DbType = Int32), @p6='?' (DbType = DateTime), @p7='?' (Size = 300), @p8='?' (Size = 50), @p9='?' (Size = 100), @p10='?' (DbType = Double), @p11='?' (DbType = Boolean), @p12='?' (Size = 8000) (DbType = AnsiString), @p13='?' (DbType = Double), @p14='?' (DbType = Int32), @p15='?' (DbType = DateTime), @p16='?' (Size = 4000), @p17='?' (Size = 50), @p18='?' (Size = 100), @p19='?' (DbType = Double), @p20='?' (DbType = Boolean), @p21='?' (Size = 50) (DbType = AnsiString), @p22='?' (DbType = Double), @p23='?' (DbType = Int32), @p24='?' (DbType = DateTime), @p25='?' (Size = 4000), @p26='?' (Size = 50), @p27='?' (Size = 100), @p28='?' (DbType = Double), @p29='?' (DbType = Boolean), @p30='?' (Size = 50) (DbType = AnsiString), @p31='?' (DbType = Double), @p32='?' (DbType = Int32), @p33='?' (DbType = DateTime), @p34='?' (Size = 300), @p35='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DECLARE @inserted0 TABLE ([Id] int, [_Position] [int]);
+MERGE [movie] USING (
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, 0),
+(@p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, 1),
+(@p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, 2),
+(@p27, @p28, @p29, @p30, @p31, @p32, @p33, @p34, @p35, 3)) AS i ([Description], [Duration], [IsActive], [PosterUrl], [Price], [ProducedYear], [StartTime], [Subject], [Title], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Description], [Duration], [IsActive], [PosterUrl], [Price], [ProducedYear], [StartTime], [Subject], [Title])
+VALUES (i.[Description], i.[Duration], i.[IsActive], i.[PosterUrl], i.[Price], i.[ProducedYear], i.[StartTime], i.[Subject], i.[Title])
+OUTPUT INSERTED.[Id], i._Position
+INTO @inserted0;
+
+SELECT [t].[Id] FROM [movie] t
+INNER JOIN @inserted0 i ON ([t].[Id] = [i].[Id])
+ORDER BY [i].[_Position];
+2022-04-03 21:11:12.4672|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'MovieWebApi.PersistenceDB.Context.MovieDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:b1ace62e-8f12-481a-a702-b10d0a53e034
+Error Number:8152,State:14,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2022-04-03 21:27:46.7911|FATAL|Microsoft.AspNetCore.Hosting.Diagnostics|Application startup exception
