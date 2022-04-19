@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-WorkerService1-3D6283B0-80E6-4F84-BA85-60C89C4FD1F7</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.14" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.20" />
+    <PackageReference Include="NCrontab.Signed" Version="3.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersistenceDb.MVC\PersistenceDb.MVC.csproj" />
+  </ItemGroup>
+</Project>
